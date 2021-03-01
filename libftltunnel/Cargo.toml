@@ -1,0 +1,20 @@
+[package]
+name = "libftltunnel"
+version = "0.1.0"
+authors = ["Matheus Xavier <mxavier+git@rootcert.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytes="1.0.1"
+byteorder = "1.4.2"
+crc = "1.8.1"
+fs3 = "0.5.0"
+orion = "0.15.6"
+rmp = "0.8.10"
+rmp-serde = "0.15.4"
+serde = { version = "1.0.123", features = ["derive"] }
+blake3 = "0.3.7"
+thiserror = "1.0.24"
+pretty-hex = "0.2.1"
